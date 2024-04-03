@@ -8,7 +8,7 @@ function mincost(arr)
    	let first = arr.pop();
 	let sec = arr.pop();
 	   ans += first + sec;
-	   arr.push(ans);
+	   arr.push(first + sec);
 	   Arr.sort((a,b) => b-a);
 }
   return ans;
